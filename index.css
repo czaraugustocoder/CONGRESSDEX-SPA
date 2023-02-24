@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+body {
+    background-color: steelblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#root {
+    max-width: 875px;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card_deputado {
+    width: 140px;
+    height: 180px;
+    padding-top: 6px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    background-color: whitesmoke;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.card_deputado:hover {
+    box-shadow: 0px 0px 20px black;
+}
+
+h5 {
+    margin: 4px 0px 0px 4px;
+}
+
+h6 {
+    margin: 2px 0px 0px 4px;
+}
+
+.foto_deputado {
+    width: 90px;
+    height: 120px;
+    display: block;
+    margin: 0px auto 0px auto;
+}
